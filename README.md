@@ -39,7 +39,7 @@ Numeric columns like Age, Salary, and YearsAtCompany were standardized using sca
 The dataset was then split into training and testing sets for both classification and regression tasks.
 
 # 5. Model Building
-A. Classification Model – Predicting Attrition
+## A. Classification Model – Predicting Attrition
 Built a Random Forest Classifier to predict whether an employee would leave or not.
 
 Also created a deep learning model using Keras with a sigmoid output layer for binary classification.
@@ -56,7 +56,7 @@ Recall – Out of all employees who actually left, how many were correctly predi
 
 F1-Score – A balance between precision and recall
 
-B. Regression Model – Predicting Performance Score
+### B. Regression Model – Predicting Performance Score
 Built a Linear Regression model to predict the numeric PerformanceScore.
 
 Also built a deep learning regression model using ReLU activations and MSE loss.
